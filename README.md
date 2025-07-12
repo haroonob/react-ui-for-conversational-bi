@@ -21,8 +21,5 @@ cd react-ui-for-bi
 npm install
 npm run dev
 
-![Screenshot](src/assets/mainpage.png)
-<img src="./src/assets/mainpage.png" alt="App Screenshot" width="600"/>
-![Dashboard Preview](https://github.com/haroonob/react-ui-for-conversational-bi/blob/main/src/assets/mainpage.png)
+![Dashboard Preview](https://raw.githubusercontent.com/haroonob/react-ui-for-conversational-bi/main/src/assets/mainpage.png)
 
-<img src="https://github.com/haroonob/react-ui-for-conversational-bi/blob/main/src/assets/mainpage.png" alt="App Screenshot" width="600"/>
