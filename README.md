@@ -17,4 +17,8 @@ This is the frontend React application for the Conversational BI tool. It connec
 
 ```bash
 git clone https://github.com/haroonob/your-ui-repo.git
-cd your-ui-repo
+cd react-ui-for-bi
+npm install
+npm run dev
+
+![App Screenshot](./assets/mainpage.png)
