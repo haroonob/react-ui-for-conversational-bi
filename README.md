@@ -18,13 +18,11 @@ This is the frontend React application for the Conversational BI tool. It connec
 ## 🛠 Project Setup
 
 ### 1. Clone the repository
-
-```bash
 git clone https://github.com/haroonob/react-ui-for-conversational-bi.git
 cd react-ui-for-conversational-bi
-## Step 2: Install dependencies
+## Install dependencies
 npm install
-## Create a .env file in the root and Make sure this URL points to your backend API
+### Create a .env file in the root and Make sure this URL points to your backend API
 VITE_API_URL=http://localhost:8000 
 ## Start the development server
 npm run dev
