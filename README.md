@@ -21,4 +21,4 @@ cd react-ui-for-bi
 npm install
 npm run dev
 
-![App Screenshot](src/assets/mainpage.png)
+![Screenshot](src/assets/screenshot.png)
