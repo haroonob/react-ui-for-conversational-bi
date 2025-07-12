@@ -1,20 +1,12 @@
-# Use official Node.js image as base
-FROM node:18-alpine
+FROM node:22
 
-# Set working directory inside container
 WORKDIR /app
 
-# Copy package.json and package-lock.json (or yarn.lock)
-COPY package*.json ./
-
-# Install dependencies
+COPY package.json package-lock.json* ./
 RUN npm install
 
-# Copy all source code
 COPY . .
 
-# Expose port your dev server runs on (usually 3000 or 5173 for Vite)
-EXPOSE 3000
+ENV VITE_API_URL=http://api:8000
 
-# Start the dev server
 CMD ["npm", "run", "dev"]
