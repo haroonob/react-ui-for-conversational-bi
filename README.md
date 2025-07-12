@@ -1,13 +1,17 @@
 # Conversational BI UI
 
+![Preview](https://raw.githubusercontent.com/haroonob/react-ui-for-conversational-bi/main/src/assets/mainpage.png)
+
 This is the frontend React application for the Conversational BI tool. It connects to a backend API and displays chat-based insights and dynamic charts.
+
+---
 
 ## 🚀 Features
 
-- React-based UI
-- Streaming Server-Sent Events (SSE) for real-time responses
-- Bar chart rendering with Recharts
-- Dockerized development setup
+- ⚛️ React-based UI
+- 🔁 Real-time streaming responses via Server-Sent Events (SSE)
+- 📊 Dynamic charts with Recharts
+- 🐳 Dockerized setup for development and deployment
 
 ---
 
@@ -16,10 +20,5 @@ This is the frontend React application for the Conversational BI tool. It connec
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/haroonob/your-ui-repo.git
-cd react-ui-for-bi
-npm install
-npm run dev
-
-![Dashboard Preview](https://raw.githubusercontent.com/haroonob/react-ui-for-conversational-bi/main/src/assets/mainpage.png)
-
+git clone https://github.com/haroonob/react-ui-for-conversational-bi.git
+cd react-ui-for-conversational-bi
