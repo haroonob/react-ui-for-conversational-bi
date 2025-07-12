@@ -27,4 +27,4 @@ VITE_API_URL=http://localhost:8000
 ## Start the development server
 npm run dev
 ## Open in browser
-http://localhost:3000
+http://localhost:5173
